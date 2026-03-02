@@ -1,0 +1,49 @@
+Request:
+{
+    "messages": [
+        {
+            "role": "system",
+            "content": "You are an expert in crafting pithy titles for chatbot conversations. You are presented with a chat request, and you reply with a brief title that captures the main topic of that request.\nFollow Microsoft content policies.\nAvoid content that violates copyrights.\nIf you are asked to generate content that is harmful, hateful, racist, sexist, lewd, or violent, only respond with \"Sorry, I can't assist with that.\"\nKeep your answers short and impersonal.\nThe title should not be wrapped in quotes. It should be about 8 words or fewer.\nHere are some examples of good titles:\n- Git rebase question\n- Installing Python packages\n- Location of LinkedList implementation in codebase\n- Adding a tree view to a VS Code extension\n- React useState hook usage"
+        },
+        {
+            "role": "user",
+            "content": "Please write a brief title for the following request:\n\nWhen a window is created via the function CreateNewWindow(), the first time when its created its required to associate the window to its parent which is the current window in context. Can you make the change such that only for the 1st call, you get the window handle of the current window and make the new window as a child of the current window"
+        }
+    ],
+    "model": "gpt-4o-mini-2024-07-18",
+    "temperature": 0.1,
+    "top_p": 1,
+    "max_tokens": 4096,
+    "n": 1,
+    "stream": true
+}
+
+
+Response:
+data: {"choices":[],"created":0,"id":"","prompt_filter_results":[{"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"prompt_index":0}]}
+
+data: {"choices":[{"index":0,"content_filter_results":{},"delta":{"content":"","role":"assistant"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":"Associ"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":"ating"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" new"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" window"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" with"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" parent"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" on"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" first"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"self_harm":{"filtered":false,"severity":"safe"},"sexual":{"filtered":false,"severity":"safe"},"violence":{"filtered":false,"severity":"safe"}},"delta":{"content":" call"}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: {"choices":[{"finish_reason":"stop","index":0,"content_filter_results":{},"delta":{"content":null}}],"created":1772460021,"id":"chatcmpl-DEy6n3JIY1PVTeMiz7jO5JXu2m51A","usage":{"completion_tokens":10,"completion_tokens_details":{"accepted_prediction_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":249,"prompt_tokens_details":{"cached_tokens":0},"total_tokens":259},"model":"gpt-4o-mini-2024-07-18","system_fingerprint":"fp_169294a851"}
+
+data: [DONE]
+
+

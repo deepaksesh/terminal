@@ -292,6 +292,13 @@ void WindowEmperor::CreateNewWindow(winrt::TerminalApp::WindowRequestedArgs args
                 }
             }
         }
+
+        // Associate the first created window with the current window as its parent
+        HWND currentWindowHandle = _window.get();
+        if (currentWindowHandle)
+        {
+            SetParent(host->GetWindow()->GetHandle(), currentWindowHandle);
+        }
     }
 }
 
